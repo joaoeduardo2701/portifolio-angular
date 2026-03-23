@@ -1,0 +1,55 @@
+.dev-top-banner {
+  width: 100%;
+  background: linear-gradient(90deg, #4c2275 0%, #2e1547 100%);
+  color: #ffffff;
+  padding: 8px 0; // Um pouco mais fino para não ocupar muito espaço vertical
+  border-bottom: 1px solid #6b35a3;
+  z-index: 10000;
+
+  .banner-content {
+    display: flex;
+    justify-content: center; // Centraliza o bloco todo (ícone + texto + X)
+    align-items: center;
+    gap: 12px; // Espaço uniforme entre os elementos
+    padding: 0 20px;
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 500;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .icon {
+      font-size: 16px;
+      animation: rocket-float 2s ease-in-out infinite;
+    }
+
+    /* O botão "X" agora flui naturalmente no texto */
+    .close-btn {
+      background: rgba(255, 255, 255, 0.1); // Um fundo bem sutil
+      border: none;
+      color: #ffffff;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%; // Formato circular
+      transition: all 0.2s ease;
+      margin-left: 4px; // Um toque extra de distância da frase
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@keyframes rocket-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+} 

@@ -1,7 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { Header } from './core/components/header/header';
 import { Hero } from './pages/home/components/hero/hero';
-import { Button } from "./shared/components/button/button";
 
 @Component({
   selector: 'app-root',
@@ -10,5 +9,9 @@ import { Button } from "./shared/components/button/button";
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('portifolio-angular');
+showBanner: boolean = true;
+
+  closeBanner() {
+    this.showBanner = false;
+  }
 }

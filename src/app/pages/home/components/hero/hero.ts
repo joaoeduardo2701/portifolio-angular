@@ -7,6 +7,4 @@ import { Button } from "../../../../shared/components/button/button";
   templateUrl: './hero.html',
   styleUrl: './hero.scss',
 })
-export class Hero {
-
-}
+export class Hero {}

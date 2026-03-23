@@ -1,2 +1,15 @@
+@if (showBanner) {
+  <div class="dev-top-banner">
+    <div class="banner-content">
+      <span class="icon">🚀</span>
+      <p>Portfólio em constante evolução. Novas funcionalidades sendo adicionadas!</p>
+      
+      <button class="close-btn" (click)="closeBanner()" aria-label="Fechar aviso">
+        ✕
+      </button>
+    </div>
+  </div>
+}
+
 <app-header></app-header>
 <app-hero></app-hero>
