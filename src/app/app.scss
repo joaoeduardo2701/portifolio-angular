@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Isso impede que o padding aumente o tamanho do elemento */
+}
+
+html, body {
+  overflow-x: hidden; /* Garante que nada escape pela lateral */
+  width: 100%;
+}
+
 .dev-top-banner {
   width: 100%;
   background: linear-gradient(90deg, #4c2275 0%, #2e1547 100%);
@@ -5,6 +16,7 @@
   padding: 8px 0; // Um pouco mais fino para não ocupar muito espaço vertical
   border-bottom: 1px solid #6b35a3;
   z-index: 10000;
+  text-align: center;
 
   .banner-content {
     display: flex;

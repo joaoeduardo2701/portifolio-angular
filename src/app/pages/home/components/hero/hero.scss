@@ -32,3 +32,32 @@
   height: auto;
   margin-left: 100px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .text-hero {
+    width: 100%;
+  }
+
+  .botoes-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .image-hero {
+    margin-top: 30px;
+  }
+
+  .hero-image {
+    max-width: 250px; /* diminui a imagem */
+    width: 100%;
+    margin-left: 0; /* remove aquele espaço lateral */
+  }
+}
