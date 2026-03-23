@@ -1,0 +1,9 @@
+@if (actionType === 'download') {
+  <a [href]="fileUrl" [download]="fileName" class="btn-roxo">
+    {{ text }}
+  </a>
+} @else if (actionType === 'whatsapp') {
+  <a [href]="whatsappLink" target="_blank" rel="noopener noreferrer" class="btn-roxo">
+    {{ text }}
+  </a>
+}

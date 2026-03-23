@@ -1,0 +1,29 @@
+.btn-roxo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c2275; /* A cor roxa da sua imagem */
+  color: #ffffff;
+  font-family: 'Inter', sans-serif; /* Substitua pela fonte que está usando */
+  font-weight: 700; /* Negrito */
+  font-size: 16px;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 9999px; /* Arredondamento total (estilo pílula) */
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  /* Efeito ao passar o mouse: a cor fica um pouco mais clara e o botão sobe de leve */
+  &:hover {
+    background-color: #5d2a8f; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 34, 117, 0.4); /* Leve sombra roxa */
+  }
+
+  /* Efeito ao clicar */
+  &:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+}
