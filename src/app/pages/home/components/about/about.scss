@@ -1,4 +1,95 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.sobre-mim {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+
+.sobre-mim h2 {
+  color: white;
+}
+
+.sobre-mim h3 {
+  color: white;
+}
+
+.sobre-mim p {
+  color: #999083;
+  max-width: 450px;
+}
+
+
+.texto-sobre-mim {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .image-about img {
   max-width: 400px;
   height: auto;
+}
+
+/* Tablet e Telas Médias */
+@media (max-width: 1024px) {
+  .sobre-mim {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 30px;
+  }
+
+  /* Inverte a ordem: Texto acima da Imagem */
+  .image-about {
+    order: 2; /* Move a imagem para baixo */
+  }
+
+  .texto-sobre-mim {
+    order: 1; /* Move o texto para cima */
+    align-items: center; /* Centraliza o texto e títulos */
+  }
+
+  .image-about img {
+    max-width: 320px; /* Reduz levemente a imagem */
+  }
+}
+
+/* Celulares (Mobile) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px; /* Evita que o conteúdo encoste nas bordas */
+  }
+
+  .sobre-mim {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .image-about img {
+    max-width: 250px; /* Imagem menor para telas de celular */
+  }
+
+  .sobre-mim h2 {
+    font-size: 1.5rem;
+  }
+
+  .sobre-mim h3 {
+    font-size: 1.1rem;
+  }
+
+  .sobre-mim p {
+    font-size: 0.95rem;
+    max-width: 100%; /* Permite que o texto ocupe a largura disponível */
+  }
 }
