@@ -40,7 +40,6 @@
   height: auto;
 }
 
-/* Tablet e Telas Médias */
 @media (max-width: 1024px) {
   .sobre-mim {
     flex-direction: column;
@@ -50,25 +49,23 @@
     gap: 30px;
   }
 
-  /* Inverte a ordem: Texto acima da Imagem */
   .image-about {
-    order: 2; /* Move a imagem para baixo */
+    order: 2; 
   }
 
   .texto-sobre-mim {
-    order: 1; /* Move o texto para cima */
-    align-items: center; /* Centraliza o texto e títulos */
+    order: 1;
+    align-items: center;
   }
 
   .image-about img {
-    max-width: 320px; /* Reduz levemente a imagem */
+    max-width: 320px; 
   }
 }
 
-/* Celulares (Mobile) */
 @media (max-width: 768px) {
   .container {
-    padding: 0 20px; /* Evita que o conteúdo encoste nas bordas */
+    padding: 0 20px; 
   }
 
   .sobre-mim {
@@ -77,7 +74,7 @@
   }
 
   .image-about img {
-    max-width: 250px; /* Imagem menor para telas de celular */
+    max-width: 250px; 
   }
 
   .sobre-mim h2 {
@@ -90,6 +87,6 @@
 
   .sobre-mim p {
     font-size: 0.95rem;
-    max-width: 100%; /* Permite que o texto ocupe a largura disponível */
+    max-width: 100%; 
   }
 }

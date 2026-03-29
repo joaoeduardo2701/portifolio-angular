@@ -49,10 +49,10 @@ hr {
 
 @media (max-width: 768px) {
   nav {
-    width: 100%; /* Garante que ele não passe da tela */
+    width: 100%; 
     max-width: 100vw; 
     flex-direction: column;
-    padding: 20px 15px; /* Reduzimos o 50px que era exagerado */
+    padding: 20px 15px; 
     height: auto;
     gap: 10px;
   }
@@ -61,11 +61,11 @@ hr {
     width: 100%;
     justify-content: center;
     padding: 0;
-    gap: 10px; /* Espaço menor entre links no celular */
+    gap: 10px; 
   }
 
   hr {
-    width: 90%; /* Linha não encosta nas bordas */
+    width: 90%; 
     margin: 0 auto;
   }
 }
