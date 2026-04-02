@@ -47,6 +47,13 @@ hr {
   border: 0.5px solid #1F1B2E;
 }
 
+@media (max-width: 1400px) {
+  nav {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
 @media (max-width: 768px) {
   nav {
     width: 100%; 

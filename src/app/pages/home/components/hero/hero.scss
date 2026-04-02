@@ -33,6 +33,31 @@
   margin-left: 100px;
 }
 
+@media (max-width: 1350px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .botoes-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .image-hero {
+    margin-top: 30px;
+  }
+
+  .hero-image {
+    width: 100%;
+    margin-left: 0; 
+  }
+}
+
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
