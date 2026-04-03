@@ -11,6 +11,19 @@ nav {
 }
 
 #logo-navbar {
+  cursor: pointer;
+}
+
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #0a0a0f;
+}
+
+#logo-navbar {
   text-decoration: none;
 }
 
@@ -29,7 +42,7 @@ nav ul li {
 }
 
 nav ul li::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -44,7 +57,7 @@ nav ul li:hover::after {
 }
 
 hr {
-  border: 0.5px solid #1F1B2E;
+  border: 0.5px solid #1f1b2e;
 }
 
 @media (max-width: 1400px) {
@@ -56,10 +69,10 @@ hr {
 
 @media (max-width: 768px) {
   nav {
-    width: 100%; 
-    max-width: 100vw; 
+    width: 100%;
+    max-width: 100vw;
     flex-direction: column;
-    padding: 20px 15px; 
+    padding: 20px 15px;
     height: auto;
     gap: 10px;
   }
@@ -68,11 +81,11 @@ hr {
     width: 100%;
     justify-content: center;
     padding: 0;
-    gap: 10px; 
+    gap: 10px;
   }
 
   hr {
-    width: 90%; 
+    width: 90%;
     margin: 0 auto;
   }
 }

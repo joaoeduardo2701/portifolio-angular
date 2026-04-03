@@ -1,13 +1,14 @@
-<nav>
-  <a href=""id="logo-navbar">  
-    <img src="logo-dudu.png" alt="Logo dudu.dev" width="200px">
-  </a>
-  <ul>
-    <li>Home</li>
-    <li>Sobre</li>
-    <li>Habilidades</li>
-    <li>Projetos</li>
-  </ul>
-</nav>
-<hr />
-
+<header class="navbar-wrapper">
+  <nav>
+    <a (click)="scrollTo('home')" id="logo-navbar">
+      <img src="logo-dudu.png" alt="Logo dudu.dev" width="200px" />
+    </a>
+    <ul>
+      <li><a (click)="scrollTo('home')">Home</a></li>
+      <li><a (click)="scrollTo('sobre')">Sobre</a></li>
+      <li><a (click)="scrollTo('habilidades')">Habilidades</a></li>
+      <li><a (click)="scrollTo('projetos')">Projetos</a></li>
+    </ul>
+  </nav>
+  <hr />
+</header>
