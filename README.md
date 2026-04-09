@@ -1,59 +1,128 @@
-# PortifolioAngular
+# 🚀 Portfólio Angular — Eduardo Padilha
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
+Bem-vindo ao repositório do meu portfólio!
+Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades como desenvolvedor Full Stack, com foco em tecnologias modernas e boas práticas de desenvolvimento.
 
-## Development server
+🔗 **Acesse o projeto em produção: 👇**
 
-To start a local development server, run:
+<a href="https://portifolio-angular-dyjnz2xbu-dudus-projects-12dbbeee.vercel.app" target="_blank">
+  <img width="1567" height="934" alt="image" src="https://github.com/user-attachments/assets/aabe98b8-600c-475a-a08d-dc74822c912d" />
+</a>
+
+---
+
+## 📌 Sobre o Projeto
+
+Este portfólio foi construído utilizando **Angular** e tem como objetivo central demonstrar:
+
+* Minhas habilidades técnicas
+* Projetos desenvolvidos
+* Experiência prática com frontend moderno
+* Boas práticas de organização e responsividade
+
+O projeto foi pensado para ser **simples, direto e eficiente**, garantindo uma boa experiência tanto para recrutadores quanto para desenvolvedores.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* Angular 21
+* TypeScript
+* HTML5 & CSS3
+* Responsividade (Mobile First)
+* Git & GitHub
+* Vercel (Deploy)
+
+---
+
+## ⚙️ Funcionalidades
+
+* Interface moderna e responsiva
+* Navegação suave entre seções
+* Estrutura modular com componentes Angular
+* Fácil manutenção e escalabilidade
+
+---
+
+## 💻 Como Rodar o Projeto
+
+### 🔧 Pré-requisitos
+
+* Node.js instalado
+* Angular CLI
+
+### ▶️ Executando localmente
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acesse no navegador:
+👉 http://localhost:4200/
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧱 Estrutura e Boas Práticas
 
-```bash
-ng generate component component-name
-```
+O projeto segue boas práticas como:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* Separação de responsabilidades por componentes
+* Organização modular
+* Código limpo e reutilizável
+* Versionamento com Git
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🧪 Testes
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Para rodar os testes unitários:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Para testes end-to-end:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 📈 Objetivo Profissional
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto faz parte da minha jornada como desenvolvedor, com foco em evolução contínua nas áreas de:
+
+* Desenvolvimento Frontend com Angular
+* Integração com APIs
+* Experiência do usuário (UX/UI)
+* Boas práticas de desenvolvimento
+
+---
+
+## 🤝 Contribuições
+
+Sinta-se à vontade para:
+
+* Fazer um fork do projeto
+* Sugerir melhorias
+* Abrir issues
+* Contribuir com novas funcionalidades
+
+---
+
+## 📬 Contato
+
+Caso queira entrar em contato comigo:
+
+* 💼 LinkedIn: [*(adicione aqui)*](https://www.linkedin.com/in/eduardoc-padilha/)
+* 📧 Email: duducardoso2701@gmail.com
+
+---
+
+## ⭐ Considerações Finais
+
+Obrigado por visitar meu repositório!
+Se este projeto te interessou, não esqueça de deixar uma ⭐ — isso ajuda bastante!
+
+---
