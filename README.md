@@ -115,7 +115,7 @@ Sinta-se à vontade para:
 
 Caso queira entrar em contato comigo:
 
-* 💼 LinkedIn: [*(adicione aqui)*](https://www.linkedin.com/in/eduardoc-padilha/)
+* 💼 LinkedIn: [*(link para o linkedin)*](https://www.linkedin.com/in/eduardoc-padilha/)
 * 📧 Email: duducardoso2701@gmail.com
 
 ---
